@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llama-tokenizer"
+version = "0.0.1"
+description = "From here: https://github.com/meta-llama/llama3/blob/main/llama/tokenizer.py"
+authors = ["Alex Osipenko <a.osipenko@ability.ai>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tiktoken = "^0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
